@@ -1,0 +1,49 @@
+{
+    "type": "PullRequest",
+    "pulls":[
+        {
+            "type": "pull",
+            "order" : 1,
+            "from":"PK",
+            "to": "UAE",
+            "startLat": "31.513513",
+            "startLng": "74.394848",
+            "endLat": "23.214066",
+            "endLng": "53.195262",
+            "arcAlt": 0.05
+        },
+        {
+            "type": "pull",
+            "order" : 2,
+            "from":"PK",
+            "to": "TUR",
+            "startLat": "24.791346",
+            "startLng": "67.057178",
+            "endLat": "41.059809",
+            "endLng": "29.085130",
+            "arcAlt": 0.05
+        },
+        {
+            "type": "pull",
+            "order" : 1,
+            "from":"TUR",
+            "to": "PAK",
+            "startLat": "41.059809",
+            "startLng": "29.085130",
+            "endLat": "31.513513",
+            "endLng": "74.394848",
+            "arcAlt": 0.05
+        },
+        {
+            "type": "pull",
+            "order" : 2,
+            "from":"RUS",
+            "to": "UAE",
+            "startLat": "55.741110",
+            "startLng": "37.633853",
+            "endLat": "23.214066",
+            "endLng": "53.195262",
+            "arcAlt": 0.05
+        }
+    ]
+}

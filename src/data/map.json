@@ -1,0 +1,45 @@
+{
+    "type": "Map",
+    "maps": [
+        {
+            "text": "PK",
+            "size" : 1.0,
+            "country" : "Pakistan",
+            "city" : "Lahore", 
+            "lat": "31.513513",
+            "lng": "74.394848"
+        },
+        {
+            "text": "UAE",
+            "size" : 1.0,
+            "country" : "United Arab Emirates",
+            "city" : "Dubai", 
+            "lat": "23.214066",
+            "lng": "53.195262"
+        },
+        {
+            "text": "PK",
+            "size" : 1.0,
+            "country" : "Pakistan",
+            "city" : "Karachi", 
+            "lat": "24.791346",
+            "lng": " 67.057178"
+        },
+        {
+            "text": "TUR",
+            "size" : 1.0,
+            "country" : "Turkiye",
+            "city" : "Istanbul", 
+            "lat": "41.059809",
+            "lng": " 29.085130"
+        },
+        {
+            "text": "RUS",
+            "size" : 1.0,
+            "country" : "Russia",
+            "city" : "Moscow", 
+            "lat": "55.741110",
+            "lng": "37.633853"
+        }
+    ]
+}
