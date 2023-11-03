@@ -16,6 +16,9 @@ function GlobeScene() {
     const directionalLight = new DirectionalLight('white', 5);
     const ambientLight = new AmbientLight('white', 1);
     globeEl.current.lights([ambientLight, directionalLight]);
+    globeEl.current.controls().autoRotate = true;
+    globeEl.current.controls().autoRotateSpeed = 0.35;
+
     console.log(Lines);
     setArcsProcessed(true);
   }, [arcsProcessed]);
@@ -48,7 +51,7 @@ function GlobeScene() {
         hexPolygonResolution={3}
         hexPolygonColor={() => "#6a6ed2"}
         hexPolygonMargin={0.7}
-        hexPolygonsData={arcsProcessed ? countries.features : []} // Render hexagons when arcs are processed
+        hexPolygonsData={arcsProcessed ? countries.features : []}
         animateIn={true}
         showGlobe={true}
         atmosphereAltitude={0.25}
