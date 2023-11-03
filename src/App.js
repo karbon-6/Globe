@@ -13,12 +13,17 @@ function GlobeScene() {
   const Lines = lines.pulls;
 
   useEffect(() => {
-    const directionalLight = new DirectionalLight('white', 5);
-    const ambientLight = new AmbientLight('white', 1);
-    globeEl.current.lights([ambientLight, directionalLight]);
+    const camera = globeEl.current.camera();
+    
+    const directionalLight = new DirectionalLight('white', 1);
+    // const ambientLight = new AmbientLight('white', 1);
+    // directionalLight.position.copy(camera.position);
+    // ambientLight.position.copy(camera.position);
+    // globeEl.current.lights([ambientLight, directionalLight]);
+    globeEl.current.scene().add(directionalLight);
+    // globeEl.current.scene().add(ambientLight);
     globeEl.current.controls().autoRotate = true;
     globeEl.current.controls().autoRotateSpeed = 0.35;
-
     console.log(Lines);
     setArcsProcessed(true);
   }, [arcsProcessed]);
